@@ -30,3 +30,9 @@ git commit -m "mensagem a ser digitada"
 
 git push
 # envia todos os commit para o repositorio git remoto.
+
+git config --global user.email "monickhahn130@gmail.com"
+# Definir um endereço de e-mail no Git
+
+git config --global user.name monickhahn
+# Definir um nome de usuário no Git
