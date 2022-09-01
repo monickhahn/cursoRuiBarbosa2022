@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Muda cor com JavaScript - Gustavo Neitzke</h1>
+    <button onclick="mudacor('red')">Vermelho</button>
+    <button onclick="mudacor('green')">Verde</button>
+    <button onclick="mudacor('purple')">Roxo</button>
+</body>
+<script>
+    function mudacor(cor)
+    {
+        document.querySelector('body').style.backgroundColor = cor;
+    }
+</script>
+</html>
